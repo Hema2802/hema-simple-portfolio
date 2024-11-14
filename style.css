@@ -1,0 +1,703 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Faculty+Glyphic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rowdies:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.main{
+    width: 100%;
+    background:url(BG1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar{
+    
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    padding: 30px 9%;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #ECDCF1;
+    height: 100px;
+}
+
+
+.navbar.logo{
+    cursor: pointer;
+    margin-top: -40px;
+    margin-left: 20px;
+    width: 60px;
+    height: 50px;
+    
+
+}
+.navbar ul{
+    margin-top: -4%;
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+   
+}
+a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: rgb(2, 2, 122);
+    font-weight: 500;
+}
+
+li:hover a,
+li:active a{
+    color: darkgoldenrod;
+    text-decoration: underline;
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding:60px 9% 0;
+    color: #112A46;
+}
+.home-info h1{
+    font-size: 50px;
+}
+.home-info h2{
+    font-size: 32px;
+    margin-top: -10px;
+}
+#red{
+    color: rgb(193, 62, 62);
+}
+.home-info p{
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+.home-info .btn-sci{
+    display: flex;
+    align-items: center;
+
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 40px;
+    box-shadow: 0 0 10px goldenrod;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 3s;
+    
+    
+.btn:hover{
+    background-color: transparent;
+    box-shadow: none;
+}
+.home-img.img-box{
+    width: 32px;
+    height: 32px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+}
+.home-img.img-box.img-item img{
+    position: absolute;
+    display: block;
+    width: fit-content;
+
+}
+
+
+/*first section*/
+.container1{
+
+    width: 1256px;
+    height: 500px;
+    background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
+    border: 2px solid #2A0526;
+    display: grid;
+    grid-template: "header header" "content1 content2";
+}
+.box{
+    background-color: #E4BABA;
+    border: 2px solid #2A0526;
+    margin: 10px;
+}
+#header{
+    grid-area:header;
+    height: 80px;
+    text-align: center;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5rem;
+    display: grid;
+    justify-items: center; 
+    align-items: center; 
+    text-shadow: 5px 5px rgb(160, 163, 189);  
+}
+
+
+#content1{
+    grid-area:content1;
+    background-color: #C9DFDF;
+    margin-top: -20px;
+    font-family: "Caveat", cursive;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 350px;
+}
+#content2{
+    grid-area:content2;
+    background-color:#ECDCF1 ;
+    width: 500px;
+    height: 350px;
+    margin-top: -20px;
+    font-family:"Faculty Glyphic", sans-serif ;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 50px;
+    padding: 5%;
+    padding-top: -30px;
+    
+}
+
+#intro{
+    font-size: 18px;
+    text-wrap: wrap;
+    font-family: "Chakra Petch", sans-serif;
+    line-height: 30px;  
+    margin-top: -80px;
+    padding: 5%;
+}
+.skillset{
+    width: 90%;
+    background-color: whitesmoke;
+    
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(156, 41, 41);
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.html {
+    width: 90%;
+    height: 30px; 
+    background-color: #85d820;
+}
+.css {
+    width: 80%; 
+    height: 30px;
+    background-color: #b834ab;
+}
+
+/*second section open*/
+.container2{
+    width: 1256px;
+    height: 400px;
+    background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
+    border: 2px solid #2A0526;
+    display: grid;
+    grid-template: "ed_header ed_content1" "ed_content2 ed_content2";
+}
+.ed_box{
+    background-color: #E4BABA;
+    border: 2px solid #2A0526;
+    margin: 10px;
+}
+#ed_header{
+    grid-area: ed_header;
+    font-family: "Faculty Glyphic", sans-serif; 
+    font-weight: bolder;
+    font-size: x-large;
+    text-shadow:5px 5px #a4cbe4;
+    transition: width 3s;
+    transition-delay: 1s;
+    display: grid;
+    justify-items: center; 
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    background-color: #B5EBEB;
+
+}
+#ed_header:hover {
+
+     font-size: 40px;
+     text-shadow: 10px 10px #a4cbe4 ;
+}
+#ed_content1{
+    grid-area: ed_content1;
+    background-color: #d3d3d3;
+    width: 800px;
+    height: 350px;
+    font-family:"Nunito", sans-serif;
+    color: #690911;
+}
+#ed1{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+#ed2{
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+#ed3{
+    text-align: right;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: -100px;
+    padding-right: 10px;
+}
+.per:hover{
+
+    color: red;
+    
+}
+/*section 3*/
+
+.container3{
+     width: 1256px;
+     height: 600px;
+     background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
+     border: 2px solid #2A0526;
+     display: grid;
+     grid-template: "pro_header pro_header pro_header" "pro1 pro2 pro3" ;
+    }
+.pro_box{
+    background-color: #BAE3D2;
+    border: 2px solid #2A0526;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+.pro_box:hover {
+    transform: scale(1.2);
+}
+#pro_header{
+    grid-area: pro_header;
+    font-family: "Faculty Glyphic", sans-serif; 
+    font-weight: bolder;
+    font-size: x-large;
+    text-shadow:5px 5px #9c8c9b;
+    display: grid;
+    justify-items: center; 
+    align-items: center;
+    width: 1230px;
+    height: 80px;
+    background-color: #BAE3D2;
+}
+#pro1{
+    grid-area: pro1;
+    width: 300px;
+    height: 380px;
+    margin-left: 80px;
+    box-shadow: 30px -16px teal;
+
+}
+.pro_para{
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+.button {
+    background-color: #04AA6D; /* Green */
+    border: 2px solid black;
+    border-radius: 20%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+#pro2{
+    grid-area: pro2;
+    width: 300px;
+    height: 380px;
+    box-shadow: 30px -16px teal;
+
+}
+#pro3{
+    grid-area: pro3;
+    width: 300px;
+    height: 380px;
+    box-shadow: 30px -16px teal;
+}
+
+/*open container 4*/
+.container4{
+     width: 1256px;
+     height: 400px;
+     background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
+     border: 2px solid #2A0526;
+     display: grid;
+     grid-template: "cert_main  cert_header"; 
+}
+.cert{
+    margin: 10px;
+}
+#cert_main{
+    grid-area: cert_main;
+    width:900px;
+    height:350px;
+    font-family:"Nunito", sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+ 
+.case{
+    background-color:#BAE3D2 ;
+    border: 2px solid teal;
+    border-radius:30% ;
+    margin: 30px;
+    text-align: center;
+    transition: all 1s linear  ;
+    padding-top: 40px;
+       
+}
+.case:hover{
+    background-color:teal;
+    color: whitesmoke;
+    
+}
+#cert_header{
+    grid-area: cert_header;
+    width:300px;
+    height:350px ;
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: 5px 5px #a6adad;
+    font-weight: 700;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-size: xx-large;
+    padding-top: 150px;
+    transition: all 3s linear;
+    
+}
+#cert_header:hover{
+    background-color: teal;
+
+
+}
+
+/*5th section*/
+.container5{
+     width: 1256px;
+     height: 1050px;
+     background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
+     border: 2px solid #2A0526;
+}
+.hobbies{
+    margin: 10px;
+}
+#hobb{
+    grid-area: cert_main;
+    width: 1230px;
+    height:1000px;
+    font-family:"Nunito", sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    perspective: 1000px;
+}
+.hob{
+    border: 2px solid rgb(96 139 168);
+    border-radius: 5px;
+    background-color: rgb(96 139 168 / 0.2);
+    margin: 10px;
+    margin-left: 60px;
+    width: 250px;
+    height: 300px;
+    transform: rotateY(0deg);
+    transition: transform 0.6s;
+    position: relative;
+    box-shadow: 40px -10px #BAE3D2;
+     
+}
+
+.hob:hover{
+    transform:rotateY(180deg);
+    
+}
+#hobpara{
+    
+         text-align: center;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         padding:10px;
+         margin-top:10px;
+         transition: all 3s linear; 
+    }
+#hobpara:hover{
+        text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em rgb(128, 108, 232);
+}
+
+/*6th section*/
+
+.container6{
+     width: 1256px;
+     height: 500px;
+     background-image: linear-gradient( 109.6deg,  rgba(117, 226, 234, 0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
+     border: 2px solid #2A0526;
+}
+#cont{
+    font-family:"Faculty Glyphic", sans-serif ;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+}
+#connect{
+    font-family: "Nunito", sans-serif ;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 500;
+
+
+}
+/*final section*/
+.footer{
+     width: 1256px;
+     height: 250px;
+     background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
+     border: 2px solid #2A0526;
+}
+#last{
+    text-align: center;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-size: x-large;
+}
+#foot{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -80px;
+}
+
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust gap between icons */
+  }
+  
+  /* Style for each icon */
+  .social-icon {
+    font-size: 30px; /* Icon size */
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .social-icon:hover {
+    color: #f39c12; /* Color change on hover */
+  }
+  
+  /* Adjust icon size if needed */
+  .social-icon i {
+    margin-right: 8px;
+    padding-right: 20px;
+     /* Add space after the icon if you add text */
+  }
+
+  #copyright{
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  /* Mobile Media Query (max-width: 500px) */
+
+  @media (max-width: 500px) {
+    /* Navbar */
+    .navbar {
+        padding: 20px 5%;
+        padding-top: 50px;
+        height: auto;
+    }
+
+    .navbar ul {
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    .navbar ul li {
+        padding: 8px 12px;
+    }
+
+    /* Home Section */
+    .home {
+        padding: 50px 5% 0;
+        text-align: center;
+        height: auto;
+    }
+
+    .home-info h1 {
+        font-size: 32px;
+    }
+
+    .home-info h2 {
+        font-size: 24px;
+    }
+
+    .home-info p {
+        font-size: 14px;
+    }
+
+    /* Grid Layouts */
+    .container1, .container2, .container3, .container4, .container5 {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .container1, .container2, .container3 {
+        grid-template-columns: 1fr; 
+    }
+
+    .home-info .btn-sci {
+        display: block;
+        text-align: center;
+    }
+
+    .box, .pro_box, .case, .hob {
+        width: 100%; 
+    }
+
+    /* Skills Bars */
+    .html, .css {
+        width: 100%; 
+    }
+
+    /* Footer */
+    .footer {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .social-icon {
+        font-size: 25px;
+        margin: 5px 0;
+    }
+}
+
+/* Tablet Media Query (max-width: 768px) */
+@media (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        padding: 20px 10%;
+        height: auto;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .home {
+        padding: 60px 10% 0;
+        text-align: center;
+    }
+
+    .home-info h1 {
+        font-size: 40px;
+    }
+
+    .home-info h2 {
+        font-size: 28px;
+    }
+
+    .home-info p {
+        font-size: 16px;
+    }
+
+    .container1, .container2, .container3 {
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    /* Skills Bars */
+    .html, .css {
+        width: 90%;
+    }
+
+    
+    .container1 {
+        width: 90%;
+        height: auto;
+    }
+
+    .pro_box {
+        width: 45%; 
+    }
+
+    .footer {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .social-icon {
+        font-size: 30px;
+        margin: 10px;
+    }
+}
+
+
+     
+
+
+
+  
+    
+ 
